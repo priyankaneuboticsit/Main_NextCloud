@@ -1,0 +1,898 @@
+{% extends 'Nextcloud_App/Base_code/base.html' %}
+{% block content %}
+{% load static %}
+    <!--====== ABOUT PART START ======-->
+    
+    <section id="about" class="about-area pt-115">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="about-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h6 class="welcome">WELCOME</h6>
+                        <h3 class="title"><span>The self-hosted productivity platform </span> Share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks .</h3>
+                    </div>
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about-image mt-60 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" style="text-align:center">
+                        <img src="{%  static 'Nextcloud_App/assets/images/About.png'%}" alt="about">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="about-content pt-45">
+                        <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.</p>
+                        
+                        <div class="about-counter pt-60">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="single-counter counter-color-1 mt-30 d-flex wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                        <div class="counter-shape">
+                                            <span class="shape-1"></span>
+                                            <span class="shape-2"></span>
+                                        </div>
+                                        <div class="counter-content media-body">
+                                            <span class="counter-count"><span class="counter">0</span></span>
+                                            <p class="text">Clients</p>
+                                        </div>
+                                    </div> <!-- single counter -->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="single-counter counter-color-2 mt-30 d-flex wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                                        <div class="counter-shape">
+                                            <span class="shape-1"></span>
+                                            <span class="shape-2"></span>
+                                        </div>
+                                        <div class="counter-content media-body">
+                                            <span class="counter-count"><span class="counter">99</span>%</span>
+                                            <p class="text">Satisfaction</p>
+                                        </div>
+                                    </div> <!-- single counter -->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="single-counter counter-color-3 mt-30 d-flex wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                                        <div class="counter-shape">
+                                            <span class="shape-1"></span>
+                                            <span class="shape-2"></span>
+                                        </div>
+                                        <div class="counter-content media-body">
+                                            <span class="counter-count"><span class="counter">0</span></span>
+                                            <p class="text">Projects</p>
+                                        </div>
+                                    </div> <!-- single counter -->
+                                </div>
+                            </div> <!-- row -->
+                        </div> <!-- about counter -->
+                    </div> <!-- about content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== ABOUT PART ENDS ======-->
+  <!--====== OUR SERVICE PART START ======-->
+    
+  <section id="services" class="our-services-area pt-115">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-9">
+                <div class="section-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <h6 class="sub-title">Our services</h6>
+                    <h4 class="title">Bunch of Services <span>to Rock Your Business</span></h4>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="our-services-tab pt-30">
+                    <ul class="nav justify-content-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="active" id="business-tab" data-toggle="tab" href="#business" role="tab" aria-controls="business" aria-selected="true">
+                                <i class="lni-briefcase"></i> <span>File & media  <br> Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="digital-tab" data-toggle="tab" href="#digital" role="tab" aria-controls="digital" aria-selected="false">
+                                <i class="lni-bullhorn"></i> <span>Contact & Task  <br> Managements </span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a id="market-tab" data-toggle="tab" href="#market" role="tab" aria-controls="market" aria-selected="false">
+                                <i class="lni-stats-up"></i> <span>Other <br> Services</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="business" role="tabpanel" aria-labelledby="business-tab">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="our-services-image mt-50">
+                                        <img src="{%  static 'Nextcloud_App/assets/images/service2.png'%}" alt="service">
+                                    </div> <!-- our services image -->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="our-services-content mt-45">
+                                        <h3 class="services-title">Upload Your Data <span>for Secure Your Data.</span></h3>
+                                           <p class="text">Share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks<br>  
+                                             <!-- First Service --> 
+                                             <div class="my-4 example-normal">
+          
+                                                <div class="accordion" id="accordionExample1">
+                                                    <div class="card"  style="margin-bottom: 10px;">
+                                                        <button class=" " type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                                      <div class="card-header" id="headingOne1">
+                                                        <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                            Upload Your <strong>FILE</strong>
+                                                          
+                                                        </h5>
+                                                      </div>
+                                                    </button>
+                                                  
+                                                      <div id="collapseOne1" class="collapse " aria-labelledby="headingOne1" data-parent="#accordionExample1">
+                                                        <div class="card-body">
+                                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card" style="margin-bottom: 10px;">
+                                                        <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                                      <div class="card-header" id="headingTwo1">
+                                                        <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                            Upload Your Gallery <strong>IMAGES</strong>
+                                                          
+                                                        </h5>
+                                                      </div>
+                                                    </button>
+                                                      <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
+                                                        <div class="card-body">
+                                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card" style="margin-bottom: 10px;">
+                                                        <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                                      <div class="card-header" id="headingThree1">
+                                                        <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                            Save Your <strong>ACTIVITY</strong>
+                                                          
+                                                        </h5>
+                                                      </div>
+                                                    </button>
+                                                      <div id="collapseThree1" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample1">
+                                                        <div class="card-body">
+                                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  </div>
+                                                
+                                                
+
+                                        <div class="our-services-progress d-flex align-items-center mt-55">
+                                            <div class="circle" id="circles-1"></div>
+                                            <div class="progress-content">
+                                                <h4 class="progress-title">Upload Your Data<br> </h4>
+                                            </div>
+                                        </div>
+                                    </div> <!-- our services content -->
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                        
+                        <div class="tab-pane fade" id="digital" role="tabpanel" aria-labelledby="digital-tab">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="our-services-image mt-50">
+                                        <img src="{%  static 'Nextcloud_App/assets/images/service5.png'%}" alt="service">
+                                    </div> <!-- our services image -->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="our-services-content mt-45">
+                                        <h3 class="services-title">Save Your Events  <span>for Your Reminders.</span></h3>
+                                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec est arcu. Maecenas semper tortor.  <br> 
+                                         <!-- First Service --> 
+
+
+                                            <div class="my-4 example-flush">
+                                                        <div class="accordion accordion-flush" id="accordionExample2">
+                                                          <div class="card" style="margin-bottom: 10px;">
+                                                            <button class=" " type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                                            <div class="card-header" id="headingOne2">
+                                                              <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                                Save Your <strong>Contact</strong> 
+                                                               
+                                                              </h5>
+                                                            </div>
+                                                            </button>
+                                                        
+                                                            <div id="collapseOne2" class="collapse " aria-labelledby="headingOne2" data-parent="#accordionExample2">
+                                                              <div class="card-body">
+                                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="card" style="margin-bottom: 10px;">
+                                                            <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                                            <div class="card-header" id="headingTwo2">
+                                                              <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                                Manage <strong>Calendar</strong>
+                                                                
+                                                              </h5>
+                                                            </div>
+                                                        </button>
+                                                            <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionExample2">
+                                                              <div class="card-body">
+                                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="card" style="margin-bottom: 10px;">
+                                                            <button class="collapsed" type="button" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                                            <div class="card-header" id="headingThree2">
+                                                              <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                                Save Your <strong>Appointment</strong>
+                                                                
+                                                              </h5>
+                                                            </div>
+                                                        </button>
+                                                            <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample2">
+                                                              <div class="card-body">
+                                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        </div>
+                                        
+                                        <div class="our-services-progress d-flex align-items-center mt-55">
+                                            <div class="circle" id="circles-2"></div>
+                                            <div class="progress-content">
+                                                <h4 class="progress-title">Save Your Events <br></h4>
+                                            </div>
+                                        </div>
+                                    </div> <!-- our services content -->
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                        
+                        <div class="tab-pane fade" id="market" role="tabpanel" aria-labelledby="market-tab">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="our-services-image mt-50">
+                                        <img src="{%  static 'Nextcloud_App/assets/images/service7.png'%}" alt="service">
+                                    </div> <!-- our services image -->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="our-services-content mt-45">
+                                        <h3 class="services-title">Other Services  <span>for secure Data.</span></h3>
+                                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec est arcu. Maecenas semper tortor.
+                                         <!-- First Service --> 
+                                    <div class="my-4 example-normal">
+                                        <div class="accordion accordion-parted" id="accordionExample3">
+                                            <div class="card" style="margin-bottom: 10px;">
+                                                <button  type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                            <div class="card-header" id="headingOne3">
+                                                <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                    <strong>Analytics</strong>
+                                                
+                                                </h5>
+                                            </div>
+                                        </button>
+                                        
+                                            <div id="collapseOne3" class="collapse " aria-labelledby="headingOne3" data-parent="#accordionExample3">
+                                                <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="card" style="margin-bottom: 10px;">
+                                                <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                            <div class="card-header" id="headingTwo3">
+                                                <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                    <strong>Duplicate Finder</strong>
+                                                
+                                                </h5>
+                                            </div>
+                                         </button>
+                                            <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordionExample3">
+                                                <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="card" style="margin-bottom: 10px;">
+                                                <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3" style="background-color: #4D96FF;border-color: #4D96FF;">
+
+                                            <div class="card-header" id="headingThree3">
+                                                <h5 class="mb-0" style="text-align:left;"><i class="fa fa-chevron-down" aria-hidden="true" style="padding-right:30px"></i>
+                                                    <strong>Deck</strong>
+                                                
+                                                </h5>
+                                            </div>
+                                        </button>
+                                            <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordionExample3">
+                                                <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        
+                                        <div class="our-services-progress d-flex align-items-center mt-55">
+                                            <div class="circle" id="circles-3"></div>
+                                            <div class="progress-content">
+                                                <h4 class="progress-title">Other Services <br> </h4>
+                                            </div>
+                                        </div>
+                                    </div> <!-- our services content -->
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                    </div> <!-- tab content -->
+                </div> <!-- our services tab -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+
+<!--====== OUR SERVICE PART ENDS ======-->
+    <!--====== SERVICE PART START ======-->
+    
+    <section id="service" class="service-area pt-105">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8">
+                    <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <h6 class="sub-title">Why Us</h6>
+                        <h4 class="title">The reasons to choose us <span></span></h4>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="service-wrapper mt-60 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-lg-4 col-md-7">
+                        <div class="single-service d-flex">
+                            <div class="service-icon">
+                                <img src="{%  static 'Nextcloud_App/assets/images/service-1.png'%}" alt="Icon">
+                            </div>
+                            <div class="service-content media-body">
+                                <h4 class="service-title">Control</h4>
+                                <p class="text">Protect, control and monitor data and communication across your company. Guarantee compliance with business and legal requirements. Keep your data on servers you own, at all times. Nothing leaks, not even metadata.</p>
+                            </div>
+                            <div class="shape shape-1">
+                                <img src="{%  static 'Nextcloud_App/assets/images/shape/shape-1.svg'%}" alt="shape">
+                            </div>
+                            <div class="shape shape-2">
+                                <img src="{%  static 'Nextcloud_App/assets/images/shape/shape-2.svg'%}" alt="shape">
+                            </div>
+                        </div> <!-- single service -->
+                    </div>
+                    <div class="col-lg-4 col-md-7">
+                        <div class="single-service service-border d-flex">
+                            <div class="service-icon">
+                                <img src="{%  static 'Nextcloud_App/assets/images/service-2.png'%}" alt="Icon">
+                            </div>
+                            <div class="service-content media-body">
+                                <h4 class="service-title">Productivity</h4>
+                                <p class="text">Enable productivity across any platform, whether in the office or on the road, to share, collaborate and communicate across organizational boundaries. Nextcloud provides transparent access to data on any storage.</p>
+                            </div>
+                            <div class="shape shape-3">
+                                <img src="{%  static 'Nextcloud_App/assets/images/shape/shape-3.svg'%}" alt="shape">
+                            </div>
+                        </div> <!-- single service -->
+                    </div>
+                    <div class="col-lg-4 col-md-7">
+                        <div class="single-service d-flex">
+                            <div class="service-icon">
+                                <img src="{%  static 'Nextcloud_App/assets/images/service-3.png'%}" alt="Icon">
+                            </div>
+                            <div class="service-content media-body">
+                                <h4 class="service-title">Community</h4>
+                                <p class="text">Enjoy constant improvements from a thriving and transparent, entirely open-source community development model, free of lockins or paywalls. Enjoy the benefits of enterprise support when you need it.</p>
+                            </div>
+                            <div class="shape shape-4">
+                                <img src="{%  static 'Nextcloud_App/assets/images/shape/shape-4.svg'%}" alt="shape">
+                            </div>
+                            <div class="shape shape-5">
+                                <img src="{%  static 'Nextcloud_App/assets/images/shape/shape-5.svg'%}" alt="shape">
+                            </div>
+                        </div> <!-- single service -->
+                    </div>
+                </div> <!-- row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="service-btn text-center pt-25 pb-15">
+                            <a class="main-btn main-btn-2" href="#services">All Services</a>
+                        </div> <!-- service btn -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- service wrapper -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== SERVICE PART ENDS ======-->
+   
+
+<!--====== GALLERY PART START ======-->
+
+    <section id="blog" class="blog-area pt-115">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h6 class="sub-title">Our Gallery</h6>
+                        <h4 class="title">Portfolio <span>Gallery.</span></h4>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+           <div class="row align-items-end">
+               <div class="col-lg-4">
+                    <div class="section-title pb-20  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <h6 class="sub-title">See Our Portfolio</h6>
+                    </div> <!-- section title -->
+                </div>
+                <div class="col-lg-8">
+                    <div class="project-menu text-center text-sm-left text-lg-right pb-20">
+                        <ul>
+                            <li class="active" data-filter="*">See All</li>
+                            <li data-filter=".apps">File</li>
+                            <li data-filter=".branding">Photo</li>
+                            <li data-filter=".creative">Contact</li>
+                            <li data-filter=".laptop">Activity </li>
+                            <li data-filter=".product">Calender</li>
+                        </ul>
+                    </div> <!-- project menu -->
+                </div>
+            </div> <!-- row -->
+            <div class="row grid">
+                <div class="col-lg-4 col-sm-6 grid-item apps creative laptop"  >
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="{%  static 'Nextcloud_App/assets/images/1.png'%}" alt="protfolio" style="height:200px">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/1.png'%}">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item branding creative">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="{%  static 'Nextcloud_App/assets/images/2.jpg'%}" alt="protfolio" style="height:200px">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/2.jpg'%}">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item apps branding product">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="{%  static 'Nextcloud_App/assets/images/3.png'%}" alt="protfolio" style="height:200px"> 
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/3.png'%}">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item laptop product">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="{%  static 'Nextcloud_App/assets/images/6.jpg'%}" alt="protfolio" style="height:200px">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/6.jpg'%}">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item branding creative">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="{%  static 'Nextcloud_App/assets/images/5.png'%}" alt="protfolio" style="height:200px">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/5.png'%}">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item apps laptop product">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="{%  static 'Nextcloud_App/assets/images/1.png'%}" alt="protfolio" style="height:200px">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/1.png'%}">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+
+            </div> <!-- row -->
+            <!-- <div  style="display: none;"> -->
+                
+                
+                <div class="row grid" id="myDIV" >
+                    
+                        <div class="col-lg-4 col-sm-6 grid-item apps creative laptop">
+                            <div class="single-gallery gallery-masonry mt-30">
+                                <div class="gallery-image">
+                                    <img src="{%  static 'Nextcloud_App/assets/images/1.png'%}" alt="protfolio" style="height:200px">
+                                </div>
+                                <div class="gallery-icon">
+                                    <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/1.png'%}">
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div> <!-- single gallery -->
+                        </div>
+                        <div class="col-lg-4 col-sm-6 grid-item branding creative">
+                            <div class="single-gallery gallery-masonry mt-30">
+                                <div class="gallery-image">
+                                    <img src="{%  static 'Nextcloud_App/assets/images/2.jpg'%}" alt="protfolio" style="height:200px">
+                                </div>
+                                <div class="gallery-icon">
+                                    <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/2.jpg'%}">
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div> <!-- single gallery -->
+                        </div>
+                        <div class="col-lg-4 col-sm-6 grid-item apps branding product">
+                            <div class="single-gallery gallery-masonry mt-30">
+                                <div class="gallery-image">
+                                    <img src="{%  static 'Nextcloud_App/assets/images/3.png'%}" alt="protfolio" style="height:200px"> 
+                                </div>
+                                <div class="gallery-icon">
+                                    <a class="image-popup" href="{%  static 'Nextcloud_App/assets/images/3.png'%}">
+                                    <span></span>
+                                    </a>
+                                </div>
+                            </div> <!-- single gallery -->
+                        </div>
+                    
+
+                </div> <!-- row -->
+            </div>
+            <!-- </div>   -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="gallery-btn mt-60 text-center">                       
+                        <button class="main-btn" onclick="myFunction()">See More</button>                       
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section> 
+
+    <!--====== GALLEY PART ENDS ======-->
+
+
+
+    <!--====== PRICING PART START ======-->
+    
+    <section data-scroll-index="0" id="pricing" class="pricing-area pt-115">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-8 col-sm-9">
+                    <div class="section-title text-center pb-20 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <h6 class="sub-title">Pricing Plans</h6>
+                        <h4 class="title">Providing Best Pricing <span>For Your Business.</span></h4>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row no-gutters justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-pricing text-center pricing-color-1 mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <div class="pricing-price">
+                            <span class="price"><b>50</b>/m.<span class="symbol">$</span></span>
+                        </div>
+                        <div class="pricing-title mt-20">
+                            <span class="btn">20% Off</span>
+                            <h4 class="title">Basic</h4>
+                        </div>
+                        <div class="pricing-list pt-20">
+                            <ul>
+                                <li>Full Access</li>
+                                <li>Unlimited Bandwidth</li>
+                                <li>50 gb Space</li>
+                                <li>1 Month Support</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn pt-70">
+                            <a class="main-btn main-btn-2" href="{% url 'register' 'Basic' %}">Sign Up Now !</a>
+                        </div>
+                    </div> <!-- single pricing -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-pricing text-center pricing-active pricing-color-2 mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <div class="pricing-price">
+                            <span class="price"><b>69</b>/m.<span class="symbol">$</span></span>
+                        </div>
+                        <div class="pricing-title mt-20">
+                            <span class="btn">Special</span>
+                            <h4 class="title">Standard</h4>
+                        </div>
+                        <div class="pricing-list pt-20">
+                            <ul>
+                                <li>Full Access</li>
+                                <li>Unlimited Bandwidth</li>
+                                <li>50 gb Space</li>
+                                <li>1 Month Support</li>
+                            </ul>
+                        </div>
+                        
+                       
+                        <div class="pricing-btn pt-70"  >
+                        <p class="signp">
+                         <a  href="{% url 'register' 'Standard' %}"><button class="signbutton main-btn">Sign Up Now</button></a>
+                         
+                        </p>
+                        </div>
+                        
+
+                    </div> <!-- single pricing -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-pricing text-center pricing-color-3 mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
+                        <div class="pricing-price">
+                            <span class="price"><b>99</b>/m.<span class="symbol">$</span></span>
+                        </div>
+                        <div class="pricing-title mt-20">
+                            <span class="btn">New</span>
+                            <h4 class="title">Premium</h4>
+                        </div>
+                        <div class="pricing-list pt-20">
+                            <ul>
+                                <li>Full Access</li>
+                                <li>Unlimited Bandwidth</li>
+                                <li>50 gb Space</li>
+                                <li>1 Month Support</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn pt-70">
+                            <a class="main-btn main-btn-2" href="{% url 'register' 'Premium' %}">Sign Up Now !</a>
+                        </div>
+                    </div> <!-- single pricing -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== PRICING PART ENDS ======-->
+   
+    
+    
+
+
+
+ {% comment %} <!--====== BLOG PART START ======-->
+
+    <section id="blog" class="blog-area pt-115">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h6 class="sub-title">Our Blog</h6>
+                        <h4 class="title">Letest <span>News.</span></h4>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <div class="blog-image">
+                            <a href="blog-details.html"><img src="{%  static 'Nextcloud_App/assets/images/home1.png'%}" alt="news"></a>
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="blog-details.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
+                            <div class="blog-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="{%  static 'Nextcloud_App/assets/images/author-1.jpg'%}" alt="author">
+                                </div>
+                                <div class="author-content media-body">
+                                    <h6 class="sub-title">Posted by</h6>
+                                    <p class="text">Isabela Moreira</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.7s">
+                        <div class="blog-image">
+                            <a href="blog-details.html"><img src="{%  static 'Nextcloud_App/assets/images/home1.png'%}" alt="news"></a>
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="blog-details.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
+                            <div class="blog-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="{%  static 'Nextcloud_App/assets/images/author-2.jpg'%}" alt="author">
+                                </div>
+                                <div class="author-content media-body">
+                                    <h6 class="sub-title">Posted by</h6>
+                                    <p class="text">Elon Musk</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s">
+                        <div class="blog-image">
+                            <a href="blog-details.html"><img src="{%  static 'Nextcloud_App/assets/images/home1.png'%}" alt="news"></a>
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="blog-details.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4>
+                            <div class="blog-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="{%  static 'Nextcloud_App/assets/images/author-3.jpg'%}" alt="author">
+                                </div>
+                                <div class="author-content media-body">
+                                    <h6 class="sub-title">Posted by</h6>
+                                    <p class="text">Fiona</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section> 
+
+    <!--====== BLOG PART ENDS ======--> {% endcomment %}
+
+
+
+
+    
+    <!--====== CONTACT PART START ======-->
+
+    <section id="contact" class="contact-area pt-120 pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h6 class="sub-title">Our Contact</h6>
+                        <h4 class="title">Get In <span>Touch.</span></h4>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="contact-info pt-30">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-contact-info contact-color-1 mt-30 d-flex  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <div class="contact-info-icon">
+                                <i class="lni-map-marker"></i>
+                            </div>
+                            <div class="contact-info-content media-body">
+                                <p class="text">Akshaydeep, 146 Sathe Marg Near Mehadia Square, Dhantoli<br> Nagpur, India.</p>
+                            </div>
+                        </div> <!-- single contact info -->
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-contact-info contact-color-2 mt-30 d-flex  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                            <div class="contact-info-icon">
+                                <i class="lni-envelope"></i>
+                            </div>
+                            <div class="contact-info-content media-body">
+                                <p class="text">admin@cloud.virtualcaoffice.com</p>
+                                <p class="text">admin@cloud.virtualcaoffice.com</p>
+                            </div>
+                        </div> <!-- single contact info -->
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-contact-info contact-color-3 mt-30 d-flex  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                            <div class="contact-info-icon">
+                                <i class="lni-phone"></i>
+                            </div>
+                            <div class="contact-info-content media-body">
+                                <p class="text">+91 988 1164 000</p>
+                                <p class="text">+91 988 1164 000</p>
+                            </div>
+                        </div> <!-- single contact info -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- contact info -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-wrapper-form pt-115  wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h4 class="contact-title pb-10"><i class="lni-envelope"></i> Leave <span>A Message.</span></h4>
+                <!-- alert -->
+                {% if messages %}                      
+                {% for message in messages %} 
+                    <div class="container"> 
+                    <div class="alert alert-{{ message.tags }} alert-dismissible">
+                     <button type="button" class="close" data-dismiss="alert">×</button>
+                     <strong>Message:</strong> {{ message }}.
+                     </div>
+                   </div>
+                {% endfor %}
+                {% endif %}
+                <!-- end alert -->
+                   
+                        <form id="contact_form" action="/" method="POST">{% csrf_token %}
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="contact-form mt-45">
+                                        <label>Enter Your Name</label>
+                                        <input type="text" name="contname" id="contname" placeholder="Full Name" required>
+                                    </div> <!-- contact-form -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contact-form mt-45">
+                                        <label>Enter Your Email</label>
+                                        <input type="email" name="contemail" id="contemail" placeholder="Email" required>
+                                    </div> <!-- contact-form -->
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="contact-form mt-45">
+                                        <label>Your Message</label>
+                                        <textarea name="contmessage" style="padding-top:20px" id="contmessage" placeholder="Enter your message..." required></textarea>
+                                    </div> <!-- contact-form -->
+                                </div>
+                                <p class="form-message"></p>
+                                <div class="col-md-12">
+                                    <div class="contact-form mt-45" >
+                                        <button type="submit" class="" style="padding:20px">Send Now</button>
+                                    </div> <!-- contact-form -->
+                                </div>
+                            </div> <!-- row -->
+                        </form>
+                    </div> <!-- contact wrapper form -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).on('submit','#contact_form',function(e){
+            e.preventDefault();
+
+            $.ajax({
+                type:'POST',
+                url: '/',
+                data:{
+                    contname:$('#contname').val(),
+                    contemail:$('#contemail').val(),
+                    contmessage:$('#contmessage').val(),
+                    csrfmiddlewaretoken : $('input[name = csrfmiddlewaretoken]').val()
+                },
+                success:function(){
+                    alert('submit information');
+                    
+                     
+                    //  location.reload(true); 
+                    document.getElementById("contact_form").reset(); 
+                }
+
+            });
+        });
+    </script>
+{% endblock content %}
