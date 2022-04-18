@@ -142,7 +142,7 @@ h1 {
   padding: 3em;
 }
 
-input[type="text"], input[type="email"], input[type="password"] {
+input[type="text"], input[type="email"], input[type="password"],select[type="text"] {
   font-size: 0.9em;
   color: #fff;
   font-weight: 100;
@@ -165,6 +165,10 @@ input[type="text"], input[type="email"], input[type="password"] {
 input.email, input.text.w3lpass {
   margin: 2em 0;
 }
+select.text.w3lpass{
+  margin: 2em 0;
+}
+
 
 .text:focus, .text:valid {
   box-shadow: none;
@@ -182,6 +186,9 @@ input.email, input.text.w3lpass {
   transform: translateY(-30px);
   visibility: visible !important;
 }
+
+
+
 
 ::-webkit-input-placeholder {
   color: #fff;

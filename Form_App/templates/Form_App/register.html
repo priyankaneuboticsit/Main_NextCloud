@@ -43,12 +43,19 @@
           <input class="text email" type="email" name="email" placeholder="Email" required="">
           <input class="text" type="password" name="password" placeholder="Password" required="">
           
-          <input class="text w3lpass" type="text" name="price" value="{{num}}" placeholder="Pricing Plans" required="" list="price">
+          <!-- <input class="text w3lpass" type="text" name="price" value="{{num}}" placeholder="Pricing Plans" required="" list="price">
           <datalist id="price">
             <option value="Basic">  
             <option value="Standard">
               <option value="Premium">
-          </datalist>
+          </datalist> -->
+
+          <select name="price" type="text" class="form-control text w3lpass" placeholder="Pricing Plans" required="">
+            <option selected="selected"> {{num}}</option>
+            <option type="text" > Basic</option>
+            <option type="text" > Standard</option>
+            <option type="text" > Premium</option>
+        </select>
 
           
         
